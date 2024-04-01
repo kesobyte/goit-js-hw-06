@@ -10,7 +10,7 @@ loginForm.addEventListener("submit", (e) => {
   } else {
     const userAccount = {
       email: email.value,
-      pass: pass.value,
+      password: pass.value,
     };
     console.log(userAccount);
   }
